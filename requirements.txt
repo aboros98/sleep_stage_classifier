@@ -7,3 +7,4 @@ ml_collections
 scikit_learn
 seaborn
 joblib
+tensorboard
