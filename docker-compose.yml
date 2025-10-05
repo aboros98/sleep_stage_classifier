@@ -1,0 +1,11 @@
+services:
+  sleep-classifier:
+    build: .
+    container_name: sleep-classifier
+    working_dir: /app
+    volumes:
+      - ./:/app
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    command: tail -f /dev/null
