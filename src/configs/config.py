@@ -111,8 +111,8 @@ def get_config() -> ConfigDict:
     # General training parameters for PyTorch Lightning
     # ============================================================================
     config.max_epochs = 50
-    config.accelerator = "gpu"
-    config.device_list = [0]
+    config.accelerator = "cpu"
+    config.device_list = 1
     config.deterministic = True
     config.log_every_n_steps = 10
     config.check_val_every_n_epoch = 1
