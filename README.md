@@ -12,7 +12,7 @@ Deep learning models for sleep stage classification using accelerometer and hear
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/aboros98/sleep_stage_classifier
    cd sleep_classification
    ```
 
