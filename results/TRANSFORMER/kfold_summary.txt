@@ -1,0 +1,11 @@
+K-Fold Cross-Validation Summary
+============================================================
+
+Overall Metrics:
+  Accuracy: 0.631 ± 0.058
+  F1 Macro: 0.461 ± 0.038
+
+Per-class Accuracy (Recall):
+  Wake: 0.275 ± 0.051
+  NREM: 0.755 ± 0.066
+  REM: 0.369 ± 0.029

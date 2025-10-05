@@ -1,0 +1,28 @@
+Fold 4 - Logistic Regression Baseline
+============================================================
+
+Overall Metrics:
+  Accuracy: 0.6438
+  F1 Macro: 0.5502
+
+Per-class Accuracy (Recall):
+  Wake: 0.5669 (2166 samples)
+  NREM: 0.6761 (16975 samples)
+  REM: 0.5709 (5236 samples)
+
+Confusion Matrix:
+[[ 1228   591   347]
+ [ 1968 11476  3531]
+ [  671  1576  2989]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        Wake       0.32      0.57      0.41      2166
+        NREM       0.84      0.68      0.75     16975
+         REM       0.44      0.57      0.49      5236
+
+    accuracy                           0.64     24377
+   macro avg       0.53      0.60      0.55     24377
+weighted avg       0.71      0.64      0.66     24377
+

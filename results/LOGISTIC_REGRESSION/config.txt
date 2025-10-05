@@ -1,0 +1,16 @@
+Logistic Regression Baseline Configuration
+============================================================
+
+Number of folds: 5
+Validation split: 0.1
+Random seeds: [42, 1337, 999999, 6712, 5213]
+
+Model parameters:
+  max_iter: 3000
+  class_weight: balanced
+  random_state: 42
+
+Data configuration:
+  lookback_window: 512
+  hr_window_sizes: [30, 60, 120]
+  motion_gravity_constant: 1.0

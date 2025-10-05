@@ -1,0 +1,28 @@
+Fold 4 - Validation Metrics
+============================================================
+
+Overall Metrics:
+  Accuracy: 0.5960
+  F1 Macro: 0.4607
+
+Per-class Accuracy (Recall):
+  Wake: 0.2167 (263 samples)
+  NREM: 0.7461 (1485 samples)
+  REM: 0.4059 (648 samples)
+
+Confusion Matrix:
+[[  57  184   22]
+ [ 175 1108  202]
+ [  69  316  263]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        Wake       0.19      0.22      0.20       263
+        NREM       0.69      0.75      0.72      1485
+         REM       0.54      0.41      0.46       648
+
+    accuracy                           0.60      2396
+   macro avg       0.47      0.46      0.46      2396
+weighted avg       0.59      0.60      0.59      2396
+

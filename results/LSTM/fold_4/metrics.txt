@@ -1,0 +1,23 @@
+Fold 4 Results:
+Overall Accuracy: 0.760
+F1 Macro: 0.604
+
+Per-class Accuracy (Recall):
+  Wake: 0.317 (205 samples)
+  NREM: 0.880 (1653 samples)
+  REM: 0.567 (559 samples)
+
+Confusion Matrix:
+[[  65  109   31]
+ [  73 1455  125]
+ [  30  212  317]]
+
+              precision    recall  f1-score   support
+
+        Wake       0.39      0.32      0.35       205
+        NREM       0.82      0.88      0.85      1653
+         REM       0.67      0.57      0.61       559
+
+    accuracy                           0.76      2417
+   macro avg       0.63      0.59      0.60      2417
+weighted avg       0.75      0.76      0.75      2417

@@ -1,0 +1,28 @@
+Fold 5 - Validation Metrics
+============================================================
+
+Overall Metrics:
+  Accuracy: 0.6286
+  F1 Macro: 0.5598
+
+Per-class Accuracy (Recall):
+  Wake: 0.4981 (263 samples)
+  NREM: 0.5965 (1611 samples)
+  REM: 0.7917 (528 samples)
+
+Confusion Matrix:
+[[131  47  85]
+ [236 961 414]
+ [ 56  54 418]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        Wake       0.31      0.50      0.38       263
+        NREM       0.90      0.60      0.72      1611
+         REM       0.46      0.79      0.58       528
+
+    accuracy                           0.63      2402
+   macro avg       0.56      0.63      0.56      2402
+weighted avg       0.74      0.63      0.65      2402
+

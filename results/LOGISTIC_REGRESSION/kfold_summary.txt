@@ -1,0 +1,54 @@
+K-Fold Cross-Validation Summary - Logistic Regression Baseline
+================================================================================
+
+Number of folds: 5
+
+VALIDATION SET METRICS:
+--------------------------------------------------------------------------------
+Overall Metrics:
+  Accuracy:  0.6292 ± 0.0397
+  F1 Macro:  0.5296 ± 0.0573
+
+Per-class Accuracy (Recall):
+  Wake:  0.3880 ± 0.1008
+  NREM:  0.6715 ± 0.0693
+  REM:   0.6312 ± 0.1265
+
+TRAINING SET METRICS:
+--------------------------------------------------------------------------------
+Overall Metrics:
+  Accuracy:  0.6371 ± 0.0041
+  F1 Macro:  0.5432 ± 0.0044
+
+Per-class Accuracy (Recall):
+  Wake:  0.5595 ± 0.0063
+  NREM:  0.6732 ± 0.0049
+  REM:   0.5551 ± 0.0090
+
+DETAILED RESULTS PER FOLD:
+--------------------------------------------------------------------------------
+
+Fold 1:
+  Train - Accuracy: 0.6374, F1 Macro: 0.5464
+  Val   - Accuracy: 0.5753, F1 Macro: 0.4640
+  Val   - Wake: 0.3770, NREM: 0.5803, REM: 0.6513
+
+Fold 2:
+  Train - Accuracy: 0.6386, F1 Macro: 0.5399
+  Val   - Accuracy: 0.6777, F1 Macro: 0.6044
+  Val   - Wake: 0.4818, NREM: 0.7294, REM: 0.6213
+
+Fold 3:
+  Train - Accuracy: 0.6326, F1 Macro: 0.5405
+  Val   - Accuracy: 0.6682, F1 Macro: 0.5590
+  Val   - Wake: 0.3663, NREM: 0.7051, REM: 0.6860
+
+Fold 4:
+  Train - Accuracy: 0.6438, F1 Macro: 0.5502
+  Val   - Accuracy: 0.5960, F1 Macro: 0.4607
+  Val   - Wake: 0.2167, NREM: 0.7461, REM: 0.4059
+
+Fold 5:
+  Train - Accuracy: 0.6333, F1 Macro: 0.5388
+  Val   - Accuracy: 0.6286, F1 Macro: 0.5598
+  Val   - Wake: 0.4981, NREM: 0.5965, REM: 0.7917
